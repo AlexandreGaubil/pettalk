@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeMessage</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Chat with your pet</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Conversation</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(com.alexandregaubil.PetTalk).First</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>firstShortcutKey1</key>
+				<string>firstShortcutKeyValue1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeAdd</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Contact the developper</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Support</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(com.alexandregaubil.PetTalk).Second</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>secondShortcutKey1</key>
+				<string>secondShortcutKeyValue1</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

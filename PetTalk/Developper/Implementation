@@ -1,0 +1,32 @@
+n°1: Messages view: having a scroll view to display xib files (messages)
+	URL: https://stackoverflow.com/questions/28551404/how-to-use-custom-nib-view-in-viewcontroller-multiple-times
+
+n°2: 
+
+https://stackoverflow.com/questions/37946990/cgrectmake-cgpointmake-cgsizemake-cgrectzero-cgpointzero-is-unavailable-in-s
+note on how to create rectangles in swift
+
+
+BUGS:
+when keyboard is dismissed and called again, the view does not slide up as it should
+
+
+Detect when a question is asked (when there is a '?' in string)
+
+
+is ping-pong, tennis, badminton a collective or alone sport?
+add story to movies and books
+
+//IF string is subset of string
+if string.lowercased().range(of:"swift") != nil {
+print("exists")
+}
+
+
+use leivestein distance to compare strings (download mySQL data?)
+let reference = "Hello World"
+assert(reference.levenshtein("Helo Wordl") == 3)
+assert(reference.levenshtein("") == reference.characters.count)
+
+offline capa: https://firebase.google.com/docs/database/ios/offline-capabilities
+
