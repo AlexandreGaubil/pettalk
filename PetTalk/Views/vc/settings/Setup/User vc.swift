@@ -70,7 +70,7 @@ class SetupVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let alreadyLogged = ```````````                                                                                                                                                                                                                                 Defaults.bool(forKey: UserDefaultsKeys.loggedIn)
+        let alreadyLogged = Defaults.bool(forKey: UserDefaultsKeys.loggedIn)
         if alreadyLogged {
             self.dismiss(animated: true, completion: nil)
         }

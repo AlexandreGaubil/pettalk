@@ -35,13 +35,6 @@ func saveAsAnswer() {
             } else { globalStateMachine.answer = "Hum... I didn't understand" }
             
             Analytics.logEvent("array_of_possibilities_was_nil", parameters: ["tag": globalStateMachine.tag, "text_of_user": globalStateMachine.textMessage])
-            /*let post:[String : String] = [
-                "tag": globalStateMachine.tag,
-                "textOfUser" : globalStateMachine.textMessage
-            ]
-            DispatchQueue.global(qos: .background).async {
-                ref.child("bug/ArrayOfPossibilitiesWasNil").childByAutoId().setValue(post)
-            }*/
         } else {
             var position = 0
             if arrayOfPossibilities?.count != 0 {

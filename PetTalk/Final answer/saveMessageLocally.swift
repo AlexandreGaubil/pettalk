@@ -10,7 +10,7 @@ import UIKit
 
 ///Save message to UserDefaults
 func saveMessage(text: String, sentBy: String){
-    var n = Defaults.integer(forKey: UserDefaultsKeys.numberOfMessages)
+    let n = Defaults.integer(forKey: UserDefaultsKeys.numberOfMessages)
     var sentByArray = Defaults.stringArray(forKey: UserDefaultsKeys.sendersOfMessages) ?? []
     var textArray = Defaults.stringArray(forKey: UserDefaultsKeys.messages) ?? []
 

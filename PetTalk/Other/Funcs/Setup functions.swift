@@ -21,7 +21,7 @@ func InitialiseApp() {
 
 
 var AFINNData : [String: Int] = [:]
-var ThemesWords: [String: Array] = [:]
+var ThemesWords: [String: Int] = [:]
 var AnswersArray : [String: [String]] = [:]
 var errorWhileDecodingAFINN = false
 
